@@ -1,0 +1,189 @@
+
+.reco-container{
+  margin: auto;
+position: relative;
+width: 86%; 
+  height: 100%;
+top: 170px;
+left: 30px;
+font-family: 'Montserrat', sans-serif;
+display: flex;
+}
+
+
+
+.mid-container{
+    height: 100%;
+    display: flex;
+      width: 100%;
+      position: relative;
+    
+}
+.left-content{
+    background-color: #335B43;
+    display: flex;
+    flex-direction: column;
+  color: white;
+  width: 50%;
+ max-height: 500px;
+ border: 2px solid rgb(255, 255, 255);
+ border-top-left-radius: 8px;
+ border-bottom-left-radius: 8px;
+}
+
+
+.right-content{
+  border: 2px solid white;
+  height: 100%;
+  width: 800px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #335B43;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.right-wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+/*button*/
+/*button*/
+.btn{
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bn632-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn25 {
+    background-image: linear-gradient(
+      to right,
+      #29323c,
+      #485563,
+      #2b5876,
+      #4e4376
+    );
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+  }
+/*button*/
+/*button*/
+/*button*/
+
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.checkbox-cont{
+    width: 100%;
+    height: 240px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.herb-container{
+  margin-left: 40px;
+
+
+}
+.name-herb{
+    width: 100%;
+    font-size: 26px;
+    font-weight: 500;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.img-con{
+  width: 100%;
+  height: 260px;
+  margin-bottom: 10px;
+  
+}
+
+.herb-img{
+  width: 600px;
+  border-radius: 6px;
+  max-height: 260px;
+}
+
+.description{
+  width: 300px;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+
+.benefits,.side-effect-con{
+  width: 300px;
+  margin-right: 16px;
+}
+
+.benefits-des {
+  font-size: 16px;
+  margin-bottom: 10px;
+  max-width: 40ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal; /* Change this property to allow text wrapping */
+}
+
+
+.check-7{
+  margin-left: 14px;
+}

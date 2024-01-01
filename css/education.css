@@ -1,0 +1,60 @@
+
+
+.edu-container{
+    margin: auto;
+    position: relative;
+  width: 78%; 
+  height: 100%;
+  border: 2px solid white;
+    top: 110px;
+    left: 30px;
+    background-color: #335B43;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 8px;
+    text-align:justify ;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   margin-left: 12px;
+   margin-right: 12px;
+}
+
+.title-con{
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.img-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+.tea-icon{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.body-content{
+    font-size: 18px;
+    margin: 10px;
+    line-height: 1.5;
+}
+.paragh{
+    margin-bottom: 20px;
+}
+.vids{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
